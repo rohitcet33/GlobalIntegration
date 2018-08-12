@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="method" table="x_26525_integratio_integration_interface" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>POST</label>
+            <language>en</language>
+            <name>x_26525_integratio_integration_interface</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-12 06:08:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0718b13e37fb13000733d02783990e51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-12 06:08:31</sys_updated_on>
+            <value>POST</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GET</label>
+            <language>en</language>
+            <name>x_26525_integratio_integration_interface</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-12 06:08:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f18b13e37fb13000733d02783990e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-12 06:08:31</sys_updated_on>
+            <value>GET</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PUT</label>
+            <language>en</language>
+            <name>x_26525_integratio_integration_interface</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-12 06:08:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8318b13e37fb13000733d02783990e54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-12 06:08:31</sys_updated_on>
+            <value>PUT</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>method</element>
+            <name>x_26525_integratio_integration_interface</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-12 06:08:31</sys_created_on>
+            <sys_id>0b18b13e37fb13000733d02783990e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>method</sys_name>
+            <sys_package display_value="Global Integration Module" source="x_26525_integratio">c4c03d3637fb13000733d02783990e43</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Integration Module">c4c03d3637fb13000733d02783990e43</sys_scope>
+            <sys_update_name>sys_choice_x_26525_integratio_integration_interface_method</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-12 06:08:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

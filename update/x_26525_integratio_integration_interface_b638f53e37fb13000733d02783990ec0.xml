@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_26525_integratio_integration_interface">
+    <x_26525_integratio_integration_interface action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <integration_table_name>incident</integration_table_name>
+        <method>POST</method>
+        <sys_class_name>x_26525_integratio_integration_interface</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-12 06:18:38</sys_created_on>
+        <sys_id>b638f53e37fb13000733d02783990ec0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global Integration Module" source="x_26525_integratio">c4c03d3637fb13000733d02783990e43</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Integration Module">c4c03d3637fb13000733d02783990e43</sys_scope>
+        <sys_update_name>x_26525_integratio_integration_interface_b638f53e37fb13000733d02783990ec0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-12 06:46:47</sys_updated_on>
+        <system_name>POSTMAN</system_name>
+        <table_field table="incident">short_descriptionISNOTEMPTY^caller_idISNOTEMPTY^categoryINsoftware,hardware^impact!=1^correlation_id=POSTMAN^descriptionSTARTSWITH^correlation_displaySTARTSWITH^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="caller_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="category" goto="false" newquery="false" operator="IN" or="false" value="software,hardware"/>
+            <item endquery="false" field="impact" goto="false" newquery="false" operator="!=" or="false" value="1"/>
+            <item endquery="false" field="correlation_id" goto="false" newquery="false" operator="=" or="false" value="POSTMAN"/>
+            <item endquery="false" field="description" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
+            <item endquery="false" field="correlation_display" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </table_field>
+    </x_26525_integratio_integration_interface>
+</record_update>

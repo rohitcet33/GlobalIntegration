@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_26525_integratio.RestUtil</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>RestUtil</name>
+        <script><![CDATA[var RestUtil = Class.create();
+RestUtil.prototype = {
+    initialize: function() {
+    },
+apiconf:function(){
+var v_code=['200','']
+var gr= new GlideRecord('x_26525_integratio_integration_interface');
+gr.addQuery('active',true);
+gr.addQuery('integration_table_name','incident');
+gr.addQuery('system_name','POSTMAN');
+gr.addQuery('method','POST');
+gr.query();
+if(gr.next()){
+	v_code[1]=gr.table_field.toString();
+}else{
+	v_code[0]=400;
+}
+	return v_code;
+},
+    type: 'RestUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-12 06:57:42</sys_created_on>
+        <sys_id>6ef10ab2373f13000733d02783990efa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RestUtil</sys_name>
+        <sys_package display_value="Global Integration Module" source="x_26525_integratio">c4c03d3637fb13000733d02783990e43</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Integration Module">c4c03d3637fb13000733d02783990e43</sys_scope>
+        <sys_update_name>sys_script_include_6ef10ab2373f13000733d02783990efa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-12 06:57:42</sys_updated_on>
+    </sys_script_include>
+</record_update>

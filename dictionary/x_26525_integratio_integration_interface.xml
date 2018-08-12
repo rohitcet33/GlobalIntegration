@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Integration interface" max_length="40" name="x_26525_integratio_integration_interface" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Integration Table Name " max_length="80" name="integration_table_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="POST" label="Method" max_length="40" name="method" type="string">
+            <choice>
+                <element label="POST" sequence="0" value="POST"/>
+                <element label="GET" sequence="1" value="GET"/>
+                <element label="PUT" sequence="2" value="PUT"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="System Name" max_length="40" name="system_name" type="string"/>
+        <element dependent="integration_table_name" dependent_on_field="integration_table_name" hint="is not empty means Mandatory, is one of means Permissible, is not means Restriction, is means value set, strat with means optional. Except that condition system will not Accept." label="Table Field" max_length="4000" name="table_field" type="conditions" use_dependent_field="true"/>
+    </element>
+</database>

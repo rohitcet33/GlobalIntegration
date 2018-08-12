@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="system_name" label="System Name" language="en" table="x_26525_integratio_integration_interface">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>system_name</element>
+            <help/>
+            <hint/>
+            <label>System Name</label>
+            <language>en</language>
+            <name>x_26525_integratio_integration_interface</name>
+            <plural>System Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-12 06:45:28</sys_created_on>
+            <sys_id>94900e72373f13000733d02783990e0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>System Name</sys_name>
+            <sys_package display_value="Global Integration Module" source="x_26525_integratio">c4c03d3637fb13000733d02783990e43</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Integration Module">c4c03d3637fb13000733d02783990e43</sys_scope>
+            <sys_update_name>sys_documentation_x_26525_integratio_integration_interface_system_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-12 06:45:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

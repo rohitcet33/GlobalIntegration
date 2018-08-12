@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_26525_integratio/inbound_integration</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>v1</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>true</is_versioned>
+        <name>Inbound Integration</name>
+        <namespace>x_26525_integratio</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>inbound_integration</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-12 06:39:25</sys_created_on>
+        <sys_id>b91f3d32373f13000733d02783990e21</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Inbound Integration</sys_name>
+        <sys_package display_value="Global Integration Module" source="x_26525_integratio">c4c03d3637fb13000733d02783990e43</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Integration Module">c4c03d3637fb13000733d02783990e43</sys_scope>
+        <sys_update_name>sys_ws_definition_b91f3d32373f13000733d02783990e21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-12 06:39:40</sys_updated_on>
+    </sys_ws_definition>
+</record_update>
